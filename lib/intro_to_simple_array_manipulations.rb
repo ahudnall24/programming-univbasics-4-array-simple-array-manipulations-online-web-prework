@@ -45,5 +45,15 @@ artists=["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   artists.using_insert=(add_a_artist)
   
   # => ["Beyonce","Rihanna","Breezy",Snoop Dogg"]
+  (
+  artists="Beyonce","Rihanna","Breezy","Snoop Dogg"
+  remove_duplicates=("")
+  artists.using_uniq=(remove_duplicates)
   
-  artists="Beyonce","Rihanna","Breezy",""
+  # => ["Beyonce","Rihanna","Breezy", "Snoop Dogg"]
+  
+  artists=["Beyonce","Rihanna","Breezy", "Snoop Dogg"]
+  all_artist=["Cardi B","Beyonce","Rihanna", "Breezy","Snoop Dogg","JB", "Tyrese","Tank"]
+  artists.using_flatten=(all_artist)
+  
+  # => ["Cardi B","Beyonce","Rihanna", "Breezy","Snoop Dogg","JB", "Tyrese","Tank"]
