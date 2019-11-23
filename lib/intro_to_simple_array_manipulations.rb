@@ -35,6 +35,7 @@ artists=["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   # => ["Beyonce"]
   
   artists=["Beyonce"]
+  remaing_artist_and_previous_artist=
   
   
   
