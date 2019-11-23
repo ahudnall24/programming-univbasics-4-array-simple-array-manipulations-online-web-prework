@@ -4,23 +4,25 @@ artists=["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   
   # => ["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank","Cardi B"]
   
-  artists=["Rihanna","Breezy","Tank","Cardi B"]
+  artists=["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank","Cardi B"]
   first_artist="Cardi B"
   artists.unshift=(first_artist)
   
-  # => ["Cardi B","Rihanna","Breezy", "Tank"]
+  # => ["Cardi B","Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   
-  artists=["Cardi B","Rihanna", "Breezy","Tank"]
+  artists=["Cardi B","Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   last_artist="Tank"
   artists.pop=(last_artist)
   
-  # => ["Cardi B","Rihanna","Breezy"]
+  # => ["Cardi B","Rihanna", "Breezy","Beyonce","JB", "Tyrese"]
   
-  artists=["Cardi B","Rihanna","Breezy"]
-  last_two-artist="Rihanna","Breezy"
+  artists=["Cardi B","Rihanna", "Breezy","Beyonce","JB", "Tyrese"]
+  last_two-artist="JB", "Tyrese"
   artists.pop_with_args(last_two-artist)
   
-  # => ["Cardi B"]
+  # => ["Cardi B","Rihanna", "Breezy","Beyonce"]
+  
+  artists=["Cardi B","Rihanna", "Breezy","Beyonce"]
   
   
   
