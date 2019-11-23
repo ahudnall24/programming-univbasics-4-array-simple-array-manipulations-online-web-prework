@@ -35,7 +35,15 @@ artists=["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   # => ["Beyonce"]
   
   artists=["Beyonce"]
-  remaing_artist_and_previous_artist=
+  remaing_artist_and_previous_artist="Beyonce","Rihanna","Breezy"
+  artists.concat=(remaing_artist_and_previous_artist)
   
+  # => ["Beyonce","Rihanna","Breezy"]
   
+  artists=["Beyonce","Rihanna","Breezy"]
+  add_a_artist=("Snoop Dogg")
+  artists.using_insert=(add_a_artist)
   
+  # => ["Beyonce","Rihanna","Breezy",Snoop Dogg"]
+  
+  artists="Beyonce","Rihanna","Breezy",""
