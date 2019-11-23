@@ -28,5 +28,13 @@ artists=["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   
   # => ["Rihanna", "Breezy","Beyonce"]
   
+  artists=["Rihanna", "Breezy","Beyonce"]
+  delete_first_two_artist="Rihanna", "Breezy"
+  artists.shift_with_args=(delete_first_two_artist)
+  
+  # => ["Beyonce"]
+  
+  artists=["Beyonce"]
+  
   
   
