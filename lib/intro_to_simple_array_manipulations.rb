@@ -1,8 +1,8 @@
-artists=["Rihanna", "Breezy","Tank"]
+artists=["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank"]
   next_artist="Cardi B"
   artists.push(next_artist)
   
-  # => ["Rihanna","Breezy","Tank", "Cardi B"]
+  # => ["Rihanna", "Breezy","Beyonce","JB", "Tyrese","Tank","Cardi B"]
   
   artists=["Rihanna","Breezy","Tank","Cardi B"]
   first_artist="Cardi B"
